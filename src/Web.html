@@ -1,21 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>DeTao's Website</title>
+	<!--css link-->
+	<link href="style.css" rel="stylesheet" type="text/css" />
 	<img src="#" alt="myimg" title="My Image">
 </head>
 <body>
 	<div id="info">
-		<h1>Personal Information</h1>
+		<h1><span>Personal Information</span></h1>
 		<p>Hello, my name is <strong> Kevin Tao</strong>. I am a sunny and optimistic guy who just graduated from <em>Carleton University</em>, bachelor of computer science, served as a teaching assistant in the course "Abstract Data Types/Algorithms". After graduation, I started to have an interest in the network and keep self-learning to improve myself. I'd like to apply for a job in the field of networking and software development.</p>
 
 		<p>Click here to view my Linkedin profile
-		<a href="https://www.linkedin.com/in/kevin-tao-b39821181/" title = "linkedin" target = "blank"><button>myLinkedin</button></a>
+		<a href="https://www.linkedin.com/in/kevin-tao-b39821181/" title = "linkedin" target = "blank"><button class="linkedin">Linkedin</button></a>
 		</p>
 	</div>
 
 	<div id="skills">
-		<h3>Skills</h3>
+		<h1><span>Skills</span></h1>
 			<ul>
 				<li>html</li>
 				<li>css</li>
@@ -60,10 +62,11 @@
 	</div>
 
 	<div id="contact">
-		<h1>Contact me</h1>
+		<h1><span>Contact me</span></h1>
 		<form>
 			<label for="name">Name </label>
-			<input type="text" name="name" id="name" required/>
+			<input type="text" name="name" id="name" 
+			placeholder="name" required/>
 			<br>
 			<label for="gender">Gender</label>
 			<select>
@@ -79,8 +82,8 @@
 			<input type="text" name="phone" id="phone" placeholder="xxx-xxx-xxxx" />
 			<br>
 			<textarea cols="50" rows="10"placeholder = "Please enter your message here..."></textarea>
-			<input type="submit" name="submit" />
-			<input type="reset" name="reset" />
+			<input type="submit" name="submit" class="submit" />
+			<input type="reset" name="reset" class="reset" />
 		</form>
 	
 	</div>
