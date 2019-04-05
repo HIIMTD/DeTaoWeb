@@ -92,3 +92,11 @@ textarea {
 .reset:hover {
     background-color: #3BC352;
 }
+
+
+.copyright {
+    font-size: 20pt;
+    text-align: center;
+    padding-bottom: 10px;
+    color: grey;
+}
