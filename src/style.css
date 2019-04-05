@@ -1,5 +1,5 @@
 body {
-    font-family: 'Handlee', cursive;
+    font-family: "Microsoft Yahei";
     font-size: 20pt;
     background-color: #efefef;
     color: grey;
@@ -20,6 +20,7 @@ h1 span {
 }
 
 .linkedin{
+
 	background-color: #369AE4;
 	color: #ffffff;
 }
