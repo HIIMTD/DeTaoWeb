@@ -27,7 +27,7 @@ p{
     left: 0px;
     right: 0px;
     bottom: 0px;
-    margin: 0px; 
+    margin-bottom: 20px; 
     width: 100%;
     height: auto;
     padding: 0px;
@@ -45,22 +45,27 @@ p{
 
 .aboutme {
         border: 10px dashed;
-        padding: 20px;
-
+        overflow: hidden;
         width: 100%;
+
 }
 
 .aboutmeintro{
     float: left;
-
     width: 50%;
-    height: 500px;
+    
+
 }
 
-.ski img {
+.skills {
+    
+    float: left;
+}
+
+.ski img{
     float: right;
     width: 50%;
-    height: 100px;
+    height: auto;
 }
 
 .followme {
@@ -102,14 +107,27 @@ h1 span {
 }
 
 caption {
-	font-size: 15pt;
+	font-size: 20pt;
     color: #20bcd5;
     text-align: center;
-    padding: 18px 0 18px 0;
+    padding: 5px 0 5px 0;
     margin: 0 0 10px 0;
 	border: 4px dashed #20bcd5;
     padding: 10px;
 }
+
+.experience {
+    border: 4px dotted #20bcd5;
+   padding-left: 100px;
+   width: 50%;
+}
+
+.experience td{
+        border: 4px dotted #20bcd5;
+   padding-right: 100px;
+   
+}
+
 
 form {
     text-align: center;
