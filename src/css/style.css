@@ -5,6 +5,7 @@ body {
     color: grey;
     padding: 10px;
     margin: 0;
+
 }
 h1 {
     font-size: 15pt;
@@ -17,6 +18,39 @@ h1 {
 p{
 	text-indent:2em;
 	line-height:2em 
+}
+
+
+.welcome img{
+	position: relative;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: 0px; 
+    width: 100%;
+    height: auto;
+    padding: 0px;
+
+}
+
+.intro{
+    position: absolute;
+    color: black;
+    top: 200px;
+    left: 20px;
+    padding: 50px;
+
+}
+
+#aboutme{
+    float: left;
+    border: 10px dashed;
+    width: 50%;
+}
+
+#aboutmepic {
+    float: right;
 }
 
 .followme {
@@ -82,7 +116,7 @@ form {
     border-radius: 5px;
     width: 50%;
     outline: none;
-    float: left;
+  
 }
 
 textarea {
@@ -127,7 +161,11 @@ textarea {
     background-color: #3BC352;
 }
 
-
+.followme{
+    position: fixed;
+    left: 30px;
+    bottom: 30px;
+}
 .backtotop{
     position: fixed;
     bottom:30px;
