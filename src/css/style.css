@@ -43,14 +43,24 @@ p{
 
 }
 
-#aboutme{
-    float: left;
-    border: 10px dashed;
-    width: 50%;
+.aboutme {
+        border: 10px dashed;
+        padding: 20px;
+
+        width: 100%;
 }
 
-#aboutmepic {
+.aboutmeintro{
+    float: left;
+
+    width: 50%;
+    height: 500px;
+}
+
+.ski img {
     float: right;
+    width: 50%;
+    height: 100px;
 }
 
 .followme {
