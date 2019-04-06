@@ -44,29 +44,38 @@ p{
 }
 
 .aboutme {
-        border: 10px dashed;
-        overflow: hidden;
-        width: 100%;
-
+    border: 10px dashed;
+    overflow: hidden;
+    background-color: yellow;
+    width: 100%;
+   /* position: relative;*/
 }
 
 .aboutmeintro{
-    float: left;
-    width: 50%;
-    
-
-}
-
-.skills {
-    
-    float: left;
-}
-
-.ski img{
+    padding: 50px;
     float: right;
     width: 50%;
-    height: auto;
+    font-size: 20px;
+
 }
+
+
+
+.aboutmeimg {
+ /*   display: inline;*/
+    float: left;
+    position: relative;
+  
+}
+
+/*
+progress
+{
+        width: 200px;
+    height: 20px;
+        
+}*/
+
 
 .followme {
 	text-align: center;
