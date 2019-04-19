@@ -20,22 +20,28 @@ p{
 	line-height:2em 
 }
 
-
-.welcome img{
-	position: relative;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    margin-bottom: 20px; 
+.welcome{
+    height: 40vw;
     width: 100%;
-    height: auto;
-    padding: 0px;
-
+    margin: 10px auto;
+    /* background-image: url(../images/welcome.png); */
+    position: relative;
+    overflow: hidden;
+}
+.welcome img{
+	/* position: relative; */
+    position: absolute;
+    width: 98%;
+    height: 96%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 
 .intro{
-    position: absolute;
+    /* position: absolute; */
     color: black;
     top: 200px;
     left: 20px;
